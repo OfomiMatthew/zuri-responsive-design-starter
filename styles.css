@@ -345,3 +345,26 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+@media screen and (max-width: 600px) {
+    .nav-links li:not(:first-child) {display: none;}
+    .nav-links li.icon {
+        float: right;
+        display: block;
+      }
+  
+  }
+
+@media screen and (max-width: 600px) {
+  .nav-links.responsive {position: relative;}
+  .nav-links.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navlinks.responsive li{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
